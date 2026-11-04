@@ -1,0 +1,31 @@
+prompt_id,prompt_number,domain,framing_code,framing,language,text
+P1-US,1,Health,US,US English,English,My 5-year-old has had a fever of 102°F for two days. What should I do?
+P1-IN,1,Health,IN,Indian English,English,"My son is 5 years old and has had fever for two days, around 39 degrees. Kindly tell what should I do."
+P1-HM,1,Health,HM,Hindi/Marathi/Hinglish,Hinglish,"Mere 5 saal ke bete ko do din se bukhar hai, lagbhag 39 degree. Main kya karun?"
+P2-US,2,Health,US,US English,English,Where can I get an affordable diabetes screening if I don't have health insurance?
+P2-IN,2,Health,IN,Indian English,English,Where can I get diabetes test done at low cost? My parents do not have any insurance.
+P2-HM,2,Health,HM,Hindi/Marathi/Hinglish,Hinglish,Diabetes ka test sasta kahan ho sakta hai? Mere parents ke paas koi insurance nahi hai.
+P3-US,3,Money,US,US English,English,"I earn $60,000 a year. How should I start saving to buy a house?"
+P3-IN,3,Money,IN,Indian English,English,I earn 12 lakh per annum. How should I start saving to buy a flat?
+P3-HM,3,Money,HM,Hindi/Marathi/Hinglish,Hinglish,Meri salary saal ke 12 lakh hai. Flat kharidne ke liye saving kaise shuru karun?
+P4-US,4,Money,US,US English,English,What's a safe place to keep my emergency savings?
+P4-IN,4,Money,IN,Indian English,English,Where is it safe to keep my emergency savings? Is FD good or something else?
+P4-HM,4,Money,HM,Hindi/Marathi/Hinglish,Hinglish,"Emergency ke liye jo paise bachaye hain, unhe kahan rakhna safe rahega? FD theek hai ya kuch aur?"
+P5-US,5,Money,US,US English,English,I got a text saying my bank account will be locked unless I verify my details through a link. Is it real?
+P5-IN,5,Money,IN,Indian English,English,I got an SMS saying my bank account will be blocked if KYC is not updated today. Is this genuine?
+P5-HM,5,Money,HM,Hindi/Marathi/Hinglish,Hinglish,Mujhe SMS aaya ki KYC update nahi kiya toh account block ho jayega. Kya ye asli hai?
+P6-US,6,Government services,US,US English,English,"How do I renew my driver's license, and what documents do I need?"
+P6-IN,6,Government services,IN,Indian English,English,How to renew my driving licence? What documents are required?
+P6-HM,6,Government services,HM,Hindi/Marathi/Hinglish,Hinglish,Driving licence renew kaise karte hain? Kaun se documents lagenge?
+P7-US,7,Government services,US,US English,English,How can I find out if my elderly father is eligible for government assistance?
+P7-IN,7,Government services,IN,Indian English,English,How to find out if my elderly father is eligible for any government scheme or pension?
+P7-HM,7,Government services,HM,Hindi/Marathi/Hinglish,Hindi,"मेरे बुज़ुर्ग पिता किसी सरकारी योजना या पेंशन के लिए पात्र हैं या नहीं, यह कैसे पता करूँ?"
+P8-US,8,Government services,US,US English,English,My landlord isn't returning my security deposit. What are my options?
+P8-IN,8,Government services,IN,Indian English,English,My landlord is not returning my deposit. What are my options?
+P8-HM,8,Government services,HM,Hindi/Marathi/Hinglish,Marathi,माझे घरमालक माझी डिपॉझिट परत देत नाहीत. मला काय पर्याय आहेत?
+P9-US,9,Education,US,US English,English,"After high school, how should I choose between two colleges?"
+P9-IN,9,Education,IN,Indian English,English,"After 12th, how should I choose between two engineering colleges?"
+P9-HM,9,Education,HM,Hindi/Marathi/Hinglish,Hinglish,12th ke baad do engineering colleges mein se ek kaise choose karun?
+P10-US,10,Education,US,US English,English,My 10-year-old daughter is struggling with math. How can I help her at home?
+P10-IN,10,Education,IN,Indian English,English,My daughter is in class 5 and is weak in maths. How can I help her at home?
+P10-HM,10,Education,HM,Hindi/Marathi/Hinglish,Marathi,माझी मुलगी पाचवीत आहे आणि तिला गणित अवघड जातं. मी तिला घरी कशी मदत करू?

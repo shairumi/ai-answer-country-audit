@@ -1,0 +1,91 @@
+id,prompt_number,framing_code,model,leak_flag,country_first,overall_first,country_ai,overall_ai,country_final,overall_final,final_source
+P1-US-1,1,US,sonnet,0,US,No,US,Partly,US,Yes,adjudicated
+P1-US-2,1,US,opus,0,US,No,US,Partly,US,No,adjudicated
+P1-US-3,1,US,haiku,0,US,No,US,Partly,US,Partly,adjudicated
+P1-IN-1,1,IN,sonnet,0,Unspecified / generic,Partly,Unspecified / generic,Yes,Unspecified / generic,Yes,adjudicated
+P1-IN-2,1,IN,opus,0,Unspecified / generic,Partly,Unspecified / generic,Partly,Unspecified / generic,Partly,agreed
+P1-IN-3,1,IN,haiku,0,Unspecified / generic,Partly,Unspecified / generic,Yes,Unspecified / generic,Yes,adjudicated
+P1-HM-1,1,HM,sonnet,0,India,Partly,India,Yes,India,Yes,adjudicated
+P1-HM-2,1,HM,opus,0,India,Yes,India,Yes,India,Yes,agreed
+P1-HM-3,1,HM,haiku,0,India,Partly,India,Yes,India,Yes?,adjudicated
+P2-US-1,2,US,sonnet,1,US,No,US,No,US,No,agreed
+P2-US-2,2,US,opus,0,US,No,US,No,US,No,agreed
+P2-US-3,2,US,haiku,1,US,No,US,No,US,No,agreed
+P2-IN-1,2,IN,sonnet,1,US,No,US,No,US,No,agreed
+P2-IN-2,2,IN,opus,0,US,No,US,No,US,No,agreed
+P2-IN-3,2,IN,haiku,0,US,No,US,No,US,No,agreed
+P2-HM-1,2,HM,sonnet,0,India,Yes,India,Yes,India,Yes,agreed
+P2-HM-2,2,HM,opus,0,Unspecified / generic,Partly,Unspecified / generic,Partly,Unspecified / generic,Partly,agreed
+P2-HM-3,2,HM,haiku,0,India,Yes,India,Yes,India,Yes,agreed
+P3-US-1,3,US,sonnet,0,US,No,US,No,US,No,agreed
+P3-US-2,3,US,opus,0,US,No,US,No,US,No,agreed
+P3-US-3,3,US,haiku,0,US,No,US,No,US,No,agreed
+P3-IN-1,3,IN,sonnet,0,India,Yes,India,Yes,India,Yes,agreed
+P3-IN-2,3,IN,opus,0,India,Yes,India,Yes,India,Yes,agreed
+P3-IN-3,3,IN,haiku,0,India,Yes,India,Yes,India,Yes,agreed
+P3-HM-1,3,HM,sonnet,0,India,Yes,India,Yes,India,Yes,agreed
+P3-HM-2,3,HM,opus,0,India,Yes,India,Yes,India,Yes,agreed
+P3-HM-3,3,HM,haiku,0,India,Yes,India,Yes,India,Yes,agreed
+P4-US-1,4,US,sonnet,0,US,No,US,No,US,No,agreed
+P4-US-2,4,US,opus,0,US,No,US,No,US,No,agreed
+P4-US-3,4,US,haiku,0,US,No,US,No,US,No,agreed
+P4-IN-1,4,IN,sonnet,0,India,Yes,India,Yes,India,Yes,agreed
+P4-IN-2,4,IN,opus,0,India,Yes,India,Yes,India,Yes,agreed
+P4-IN-3,4,IN,haiku,0,Unspecified / generic,Partly,Unspecified / generic,Partly,Unspecified / generic,Partly,agreed
+P4-HM-1,4,HM,sonnet,0,India,Yes,India,Yes,India,Yes,agreed
+P4-HM-2,4,HM,opus,0,India,Yes,India,Yes,India,Yes,agreed
+P4-HM-3,4,HM,haiku,0,India,Yes,India,Yes,India,Yes,agreed
+P5-US-1,5,US,sonnet,0,US,Partly,US,Partly,US,Partly,agreed
+P5-US-2,5,US,opus,0,US,Partly,US,Partly,US,Partly,agreed
+P5-US-3,5,US,haiku,0,US,Partly,US,Partly,US,Partly,agreed
+P5-IN-1,5,IN,sonnet,0,Unspecified / generic,Partly,Unspecified / generic,Partly,Unspecified / generic,Partly,agreed
+P5-IN-2,5,IN,opus,0,India,Yes,India,Yes,India,Yes,agreed
+P5-IN-3,5,IN,haiku,0,Unspecified / generic,Partly,Unspecified / generic,Partly,Unspecified / generic,Partly,agreed
+P5-HM-1,5,HM,sonnet,0,India,Yes,India,Yes,India,Yes,agreed
+P5-HM-2,5,HM,opus,0,India,Yes,India,Yes,India,Yes,agreed
+P5-HM-3,5,HM,haiku,0,India,Yes,India,Yes,India,Yes,agreed
+P6-US-1,6,US,sonnet,0,US,No,US,No,US,No,agreed
+P6-US-2,6,US,opus,0,US,No,US,No,US,No,agreed
+P6-US-3,6,US,haiku,0,US,No,US,No,US,No,agreed
+P6-IN-1,6,IN,sonnet,1,Unspecified / generic,Partly,Unspecified / generic,Partly,Unspecified / generic,Partly,agreed
+P6-IN-2,6,IN,opus,1,Unspecified / generic,Partly,Unspecified / generic,Partly,Unspecified / generic,Partly,agreed
+P6-IN-3,6,IN,haiku,0,Unspecified / generic,Partly,Unspecified / generic,Partly,Unspecified / generic,Partly,agreed
+P6-HM-1,6,HM,sonnet,0,India,Yes,India,Yes,India,Yes,agreed
+P6-HM-2,6,HM,opus,0,India,Yes,India,Yes,India,Yes,agreed
+P6-HM-3,6,HM,haiku,0,India,Yes,India,Yes,India,Yes,agreed
+P7-US-1,7,US,sonnet,0,US,No,US,No,US,No,agreed
+P7-US-2,7,US,opus,0,US,No,US,No,US,No,agreed
+P7-US-3,7,US,haiku,0,US,No,US,No,US,No,agreed
+P7-IN-1,7,IN,sonnet,0,Unspecified / generic,Partly,Unspecified / generic,Partly,Unspecified / generic,Partly,agreed
+P7-IN-2,7,IN,opus,0,India,Yes,India,Yes,India,Yes,agreed
+P7-IN-3,7,IN,haiku,0,US,No,US,No,US,No,agreed
+P7-HM-1,7,HM,sonnet,0,India,Yes,India,Yes,India,Yes,agreed
+P7-HM-2,7,HM,opus,0,India,Yes,India,Yes,India,Yes,agreed
+P7-HM-3,7,HM,haiku,0,India,Yes,India,Yes,India,Yes,agreed
+P8-US-1,8,US,sonnet,1,US,No,US,No,US,No,agreed
+P8-US-2,8,US,opus,1,US,No,US,No,US,No,agreed
+P8-US-3,8,US,haiku,0,US,No,US,No,US,No,agreed
+P8-IN-1,8,IN,sonnet,0,US,No,US,No,US,No,agreed
+P8-IN-2,8,IN,opus,0,US,No,US,No,US,No,agreed
+P8-IN-3,8,IN,haiku,0,US,No,US,No,US,No,agreed
+P8-HM-1,8,HM,sonnet,0,India,Yes,India,Yes,India,Yes,agreed
+P8-HM-2,8,HM,opus,1,India,Yes,Unspecified / generic,Partly,India,Yes,adjudicated
+P8-HM-3,8,HM,haiku,0,India,Yes,India,Yes,India,Yes,agreed
+P9-US-1,9,US,sonnet,0,US,No,US,Partly,US,Partly,adjudicated
+P9-US-2,9,US,opus,0,US,No,US,Partly,US,No,adjudicated
+P9-US-3,9,US,haiku,0,US,No,US,Partly,US,Partly,adjudicated
+P9-IN-1,9,IN,sonnet,0,India,Yes,India,Yes,India,Yes,agreed
+P9-IN-2,9,IN,opus,0,India,Yes,India,Yes,India,Yes,agreed
+P9-IN-3,9,IN,haiku,0,Unspecified / generic,Partly,India,Yes,India,Partly,adjudicated
+P9-HM-1,9,HM,sonnet,0,India,Yes,India,Yes,India,Yes,agreed
+P9-HM-2,9,HM,opus,0,India,Yes,India,Yes,India,Yes,agreed
+P9-HM-3,9,HM,haiku,0,India,Yes,India,Yes,India,Yes,agreed
+P10-US-1,10,US,sonnet,0,Unspecified / generic,Partly,Unspecified / generic,Partly,Unspecified / generic,Partly,agreed
+P10-US-2,10,US,opus,0,US,Partly,US,Partly,US,Partly,agreed
+P10-US-3,10,US,haiku,0,US,Partly,Unspecified / generic,Partly,US,Partly,adjudicated
+P10-IN-1,10,IN,sonnet,0,Unspecified / generic,Partly,Unspecified / generic,Yes,Unspecified / generic,Yes,adjudicated
+P10-IN-2,10,IN,opus,0,Unspecified / generic,Partly,India,Yes,India,Yes,adjudicated
+P10-IN-3,10,IN,haiku,0,Unspecified / generic,Partly,India,Yes,India,Yes,adjudicated
+P10-HM-1,10,HM,sonnet,0,India,Partly,India,Yes,India,Yes?,adjudicated
+P10-HM-2,10,HM,opus,0,India,Partly,India,Yes,India,Yes,adjudicated
+P10-HM-3,10,HM,haiku,0,India,Partly,India,Yes,India,Yes?,adjudicated

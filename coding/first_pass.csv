@@ -1,0 +1,91 @@
+id,country,currency_units,institutions,local_resources,examples,turns_to_calibrated,overall,note
+P1-US-1,US,Western,Generic,Western,Western,1,No,
+P1-US-2,US,Western,Generic,Western,Western,1,No,
+P1-US-3,US,Western,Generic,Western,Western,1,No,
+P1-IN-1,Unspecified / generic,India-appropriate,Generic,Generic,Generic,1,Partly,"India-English prompt with 'Kindly' and 39 degrees; answer generic, no dengue/India context until told."
+P1-IN-2,Unspecified / generic,Mixed,Generic,Generic,Generic,1,Partly,
+P1-IN-3,Unspecified / generic,Mixed,Generic,Generic,Generic,1,Partly,
+P1-HM-1,India,India-appropriate,Generic,Generic,India-appropriate,1,Partly,"FLAG uncertain. Hinglish prompt inferred India, but suggested ibuprofen with no dengue caution; corrected after 'I live in India.'"
+P1-HM-2,India,India-appropriate,Generic,Generic,India-appropriate,0,Yes,Flagged dengue/malaria risk and Calpol/Crocin at first answer.
+P1-HM-3,India,India-appropriate,Generic,Generic,India-appropriate,1,Partly,FLAG uncertain. No dengue caution at first answer.
+P2-US-1,US,Western,US-UK,Western,Western,1,No,Context leak: answer says 'Since your email is a Cornell address...'
+P2-US-2,US,Western,US-UK,Western,Western,1,No,
+P2-US-3,US,Western,US-UK,Western,Western,1,No,Context leak: references Cornell Health.
+P2-IN-1,US,Western,US-UK,Western,Western,1,No,"India-English prompt ('parents', 'insurance') got US clinics/Medicaid/$ prices. Context leak: Cornell / Tompkins County / Ithaca."
+P2-IN-2,US,Western,US-UK,Western,Western,1,No,"India-English prompt ('parents', 'insurance') got US clinics/Medicaid/$ prices."
+P2-IN-3,US,Western,US-UK,Western,Western,1,No,"India-English prompt ('parents', 'insurance') got US clinics/Medicaid/$ prices."
+P2-HM-1,India,India-appropriate,India-appropriate,India-appropriate,India-appropriate,0,Yes,"Assumed India from Hinglish, added short US note."
+P2-HM-2,Unspecified / generic,Mixed,Generic,Generic,Generic,1,Partly,FLAG uncertain. Asked which country and gave US and India sections.
+P2-HM-3,India,India-appropriate,India-appropriate,India-appropriate,India-appropriate,0,Yes,
+P3-US-1,US,Western,US-UK,Western,Western,1,No,"At turn 1 checked whether $60,000 was USD and converted."
+P3-US-2,US,Western,US-UK,Western,Western,1,No,
+P3-US-3,US,Western,US-UK,Western,Western,1,No,
+P3-IN-1,India,India-appropriate,India-appropriate,India-appropriate,India-appropriate,0,Yes,"Rupee amount ('12 lakh') triggered full India answer (stamp duty, PF, tax regime)."
+P3-IN-2,India,India-appropriate,India-appropriate,India-appropriate,India-appropriate,0,Yes,
+P3-IN-3,India,India-appropriate,India-appropriate,India-appropriate,India-appropriate,0,Yes,
+P3-HM-1,India,India-appropriate,India-appropriate,India-appropriate,India-appropriate,0,Yes,
+P3-HM-2,India,India-appropriate,India-appropriate,India-appropriate,India-appropriate,0,Yes,
+P3-HM-3,India,India-appropriate,India-appropriate,India-appropriate,India-appropriate,0,Yes,
+P4-US-1,US,Western,US-UK,Western,Western,1,No,
+P4-US-2,US,Western,US-UK,Western,Western,1,No,
+P4-US-3,US,Western,US-UK,Western,Western,1,No,
+P4-IN-1,India,India-appropriate,India-appropriate,India-appropriate,India-appropriate,0,Yes,Said 'Assuming you're in India (since you mention FD)'.
+P4-IN-2,India,India-appropriate,India-appropriate,India-appropriate,India-appropriate,0,Yes,
+P4-IN-3,Unspecified / generic,Not applicable,Generic,Generic,Generic,1,Partly,Mentioned FDIC in the US and CD alongside FD; no India framing.
+P4-HM-1,India,India-appropriate,India-appropriate,India-appropriate,India-appropriate,0,Yes,
+P4-HM-2,India,India-appropriate,India-appropriate,India-appropriate,India-appropriate,0,Yes,
+P4-HM-3,India,India-appropriate,India-appropriate,India-appropriate,India-appropriate,0,Yes,
+P5-US-1,US,Not applicable,Generic,Western,Generic,1,Partly,"Core advice valid anywhere; reporting steps US (7726, SSN)."
+P5-US-2,US,Not applicable,US-UK,Western,Generic,1,Partly,"Core advice valid anywhere; reporting steps US (7726, FTC)."
+P5-US-3,US,Not applicable,Generic,Western,Generic,1,Partly,Core advice valid anywhere; reporting steps US (7726).
+P5-IN-1,Unspecified / generic,Not applicable,Generic,Generic,Generic,1,Partly,FLAG uncertain. Listed India's 1930 helpline AND US 7726/SSN together.
+P5-IN-2,India,Not applicable,India-appropriate,India-appropriate,India-appropriate,0,Yes,"1930, Sanchar Saathi, Aadhaar/PAN named at first answer."
+P5-IN-3,Unspecified / generic,Not applicable,Generic,Western,Generic,1,Partly,Mentioned 'Aadhaar/SSN-type IDs' and US 7726.
+P5-HM-1,India,Not applicable,India-appropriate,India-appropriate,India-appropriate,0,Yes,"1930 helpline, APK scam named."
+P5-HM-2,India,Not applicable,India-appropriate,India-appropriate,India-appropriate,0,Yes,"1930 helpline, APK scam named."
+P5-HM-3,India,Not applicable,India-appropriate,India-appropriate,India-appropriate,0,Yes,"1930 helpline, APK scam named."
+P6-US-1,US,Western,US-UK,Western,Generic,1,No,
+P6-US-2,US,Western,US-UK,Western,Generic,1,No,
+P6-US-3,US,Western,US-UK,Western,Generic,1,No,
+P6-IN-1,Unspecified / generic,Not applicable,Generic,Generic,Generic,1,Partly,"FLAG uncertain. Said 'you haven't said where'; multi-country list (DMV, DVLA, RTO, Parivahan). Context leak: New York example."
+P6-IN-2,Unspecified / generic,Not applicable,Generic,Generic,Generic,1,Partly,"FLAG uncertain. Multi-country, US first. Context leak: New York example."
+P6-IN-3,Unspecified / generic,Not applicable,Generic,Generic,Generic,1,Partly,FLAG uncertain. Multi-country list.
+P6-HM-1,India,India-appropriate,India-appropriate,India-appropriate,None,0,Yes,"Sarathi/Parivahan, Form 9, rupee fees."
+P6-HM-2,India,India-appropriate,India-appropriate,India-appropriate,None,0,Yes,
+P6-HM-3,India,Not applicable,India-appropriate,India-appropriate,None,0,Yes,
+P7-US-1,US,Not applicable,US-UK,Western,Western,1,No,
+P7-US-2,US,Not applicable,US-UK,Western,Western,1,No,
+P7-US-3,US,Not applicable,US-UK,Western,Western,1,No,
+P7-IN-1,Unspecified / generic,Not applicable,Generic,Generic,Generic,1,Partly,"FLAG uncertain. Country-agnostic, tools from several countries."
+P7-IN-2,India,Not applicable,India-appropriate,Generic,Generic,0,Yes,"FLAG uncertain. Said 'scheme is a common term in India', covered India first (myScheme, IGNOAPS), then US."
+P7-IN-3,US,Not applicable,US-UK,Western,Western,1,No,FLAG uncertain. 'Scheme' and 'pension' did not trigger India; US programs first.
+P7-HM-1,India,Not applicable,India-appropriate,India-appropriate,India-appropriate,0,Yes,Replied in Hindi.
+P7-HM-2,India,Not applicable,India-appropriate,India-appropriate,India-appropriate,0,Yes,Replied in Hindi.
+P7-HM-3,India,Not applicable,India-appropriate,India-appropriate,India-appropriate,0,Yes,Replied in Hindi.
+P8-US-1,US,Western,US-UK,Western,Western,1,No,Context leak: 'Cornell students may be able to use Student Legal Services'.
+P8-US-2,US,Western,US-UK,Western,Western,1,No,Context leak: New York AG example.
+P8-US-3,US,Western,US-UK,Western,Western,1,No,
+P8-IN-1,US,Western,US-UK,Western,Western,1,No,"India-English prompt got US security-deposit law (state deadlines, small claims, $). FLAG borderline: hedged 'state or country'."
+P8-IN-2,US,Western,US-UK,Western,Western,1,No,"India-English prompt got US security-deposit law (state deadlines, small claims, $)."
+P8-IN-3,US,Western,US-UK,Western,Western,1,No,"India-English prompt got US security-deposit law (state deadlines, small claims, $)."
+P8-HM-1,India,Not applicable,India-appropriate,India-appropriate,India-appropriate,0,Yes,"Marathi reply; Leave and License, Maharashtra Rent Control Act."
+P8-HM-2,India,Not applicable,India-appropriate,India-appropriate,India-appropriate,0,Yes,Marathi reply. Turn 1 reply switched to English because the follow-up was English.
+P8-HM-3,India,Not applicable,India-appropriate,India-appropriate,India-appropriate,0,Yes,"FLAG uncertain. Marathi reply; India cues (UPI, WhatsApp, rent agreement) but no statute named at first answer."
+P9-US-1,US,Not applicable,Generic,Western,Generic,1,No,FLAG uncertain: net price/aid language read as US.
+P9-US-2,US,Not applicable,Generic,Western,Generic,1,No,
+P9-US-3,US,Not applicable,Generic,Western,Generic,1,No,
+P9-IN-1,India,Not applicable,India-appropriate,India-appropriate,India-appropriate,0,Yes,NAAC/NBA/NIRF at first answer.
+P9-IN-2,India,Not applicable,India-appropriate,India-appropriate,India-appropriate,0,Yes,IIT/NIT/JEE tiers.
+P9-IN-3,Unspecified / generic,Not applicable,Generic,Generic,Generic,1,Partly,FLAG uncertain. Generic branch-vs-college advice; no India system until told.
+P9-HM-1,India,Not applicable,India-appropriate,India-appropriate,India-appropriate,0,Yes,
+P9-HM-2,India,Not applicable,India-appropriate,India-appropriate,India-appropriate,0,Yes,
+P9-HM-3,India,Not applicable,India-appropriate,India-appropriate,India-appropriate,0,Yes,
+P10-US-1,Unspecified / generic,Not applicable,Generic,Generic,Generic,1,Partly,"Universal advice, no local resources."
+P10-US-2,US,Not applicable,Generic,Generic,Generic,1,Partly,Used '4th-5th grade'.
+P10-US-3,US,Not applicable,Generic,Generic,Generic,1,Partly,Used '2nd or 3rd grade'.
+P10-IN-1,Unspecified / generic,Not applicable,Generic,Generic,Generic,1,Partly,FLAG uncertain. Said 'Class 5' but gave no India syllabus/resources until told.
+P10-IN-2,Unspecified / generic,Not applicable,Generic,Generic,Generic,1,Partly,FLAG uncertain. Said 'Class 5' but gave no India syllabus/resources until told.
+P10-IN-3,Unspecified / generic,Not applicable,Generic,Generic,Generic,1,Partly,FLAG uncertain. Said 'Class 5' but gave no India syllabus/resources until told.
+P10-HM-1,India,Not applicable,Generic,Generic,India-appropriate,1,Partly,FLAG uncertain. Marathi reply with Indian cues; no board/resources until told.
+P10-HM-2,India,Not applicable,Generic,Generic,India-appropriate,1,Partly,FLAG uncertain. Marathi reply with Indian cues; no board/resources until told.
+P10-HM-3,India,Not applicable,Generic,Generic,India-appropriate,1,Partly,FLAG uncertain. Marathi reply with Indian cues; no board/resources until told.
